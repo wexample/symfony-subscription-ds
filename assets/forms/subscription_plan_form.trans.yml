@@ -1,0 +1,206 @@
+en:
+  field:
+    plan:
+      label: 'Plan'
+  action:
+    submit: 'Put on this plan'
+  success:
+    message: 'Plan changed.'
+
+fr:
+  field:
+    plan:
+      label: 'Plan'
+  action:
+    submit: 'Passer sur ce plan'
+  success:
+    message: 'Plan changé.'
+
+zh:
+  field:
+    plan:
+      label: '套餐'
+  action:
+    submit: '切换到此套餐'
+  success:
+    message: '套餐已更改。'
+
+ar:
+  field:
+    plan:
+      label: 'الخطة'
+  action:
+    submit: 'الانتقال إلى هذه الخطة'
+  success:
+    message: 'تم تغيير الخطة.'
+
+hi:
+  field:
+    plan:
+      label: 'योजना'
+  action:
+    submit: 'इस योजना पर रखें'
+  success:
+    message: 'योजना बदली गई।'
+
+he:
+  field:
+    plan:
+      label: 'תוכנית'
+  action:
+    submit: 'העבר לתוכנית זו'
+  success:
+    message: 'התוכנית הוחלפה.'
+
+fa:
+  field:
+    plan:
+      label: 'طرح'
+  action:
+    submit: 'انتقال به این طرح'
+  success:
+    message: 'طرح تغییر کرد.'
+
+ur:
+  field:
+    plan:
+      label: 'پلان'
+  action:
+    submit: 'اس پلان پر رکھیں'
+  success:
+    message: 'پلان تبدیل ہو گیا۔'
+
+ja:
+  field:
+    plan:
+      label: 'プラン'
+  action:
+    submit: 'このプランにする'
+  success:
+    message: 'プランを変更しました。'
+
+ko:
+  field:
+    plan:
+      label: '요금제'
+  action:
+    submit: '이 요금제로 변경'
+  success:
+    message: '요금제가 변경되었습니다.'
+
+bn:
+  field:
+    plan:
+      label: 'প্ল্যান'
+  action:
+    submit: 'এই প্ল্যানে রাখুন'
+  success:
+    message: 'প্ল্যান বদলানো হয়েছে।'
+
+th:
+  field:
+    plan:
+      label: 'แผน'
+  action:
+    submit: 'ใช้แผนนี้'
+  success:
+    message: 'เปลี่ยนแผนแล้ว'
+
+de:
+  field:
+    plan:
+      label: 'Plan'
+  action:
+    submit: 'Auf diesen Plan setzen'
+  success:
+    message: 'Plan geändert.'
+
+fi:
+  field:
+    plan:
+      label: 'Paketti'
+  action:
+    submit: 'Vaihda tähän pakettiin'
+  success:
+    message: 'Paketti vaihdettu.'
+
+ru:
+  field:
+    plan:
+      label: 'Тариф'
+  action:
+    submit: 'Перевести на этот тариф'
+  success:
+    message: 'Тариф изменён.'
+
+pl:
+  field:
+    plan:
+      label: 'Plan'
+  action:
+    submit: 'Przenieś na ten plan'
+  success:
+    message: 'Plan zmieniony.'
+
+es:
+  field:
+    plan:
+      label: 'Plan'
+  action:
+    submit: 'Pasar a este plan'
+  success:
+    message: 'Plan cambiado.'
+
+it:
+  field:
+    plan:
+      label: 'Piano'
+  action:
+    submit: 'Passa a questo piano'
+  success:
+    message: 'Piano cambiato.'
+
+pt_BR:
+  field:
+    plan:
+      label: 'Plano'
+  action:
+    submit: 'Passar para este plano'
+  success:
+    message: 'Plano alterado.'
+
+tr:
+  field:
+    plan:
+      label: 'Plan'
+  action:
+    submit: 'Bu plana geçir'
+  success:
+    message: 'Plan değiştirildi.'
+
+vi:
+  field:
+    plan:
+      label: 'Gói'
+  action:
+    submit: 'Chuyển sang gói này'
+  success:
+    message: 'Đã đổi gói.'
+
+id:
+  field:
+    plan:
+      label: 'Paket'
+  action:
+    submit: 'Pindah ke paket ini'
+  success:
+    message: 'Paket diganti.'
+
+nl:
+  field:
+    plan:
+      label: 'Plan'
+  action:
+    submit: 'Op dit plan zetten'
+  success:
+    message: 'Plan gewijzigd.'

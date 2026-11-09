@@ -1,0 +1,55 @@
+<?php
+
+namespace App\Tests\Controller\Pages;
+
+use App\Entity\User;
+use Doctrine\ORM\EntityManagerInterface;
+use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
+use Wexample\SymfonySubscription\Service\SubscriptionService;
+
+/**
+ * An account's subscription (symfony-subscription-ds): read on its holder's
+ * profile; on its page in the administration, put on a plan from now, the
+ * running one ended.
+ *
+ * Everything runs in one transaction, rolled back after the test.
+ */
+class SubscriptionPageTest extends WebTestCase
+{
+    public function testThePlanIsReadAndChanged(): void
+    {
+        $client = static::createClient();
+        $client->disableReboot();
+        $entityManager = static::getContainer()->get(EntityManagerInterface::class);
+        $entityManager->getConnection()->beginTransaction();
+
+        try {
+            $admin = $entityManager->getRepository(User::class)->findOneBy(['username' => 'admin']);
+            $account = $entityManager->getRepository(User::class)->findOneBy(['username' => 'max']);
+            $client->loginUser($admin, 'main');
+
+            $client->request('GET', '/account/subscription');
+            self::assertResponseIsSuccessful();
+
+            $crawler = $client->request('GET', '/accounts/'.$account->getId());
+            self::assertResponseIsSuccessful();
+            self::assertGreaterThan(0, $crawler->filter('a[href$="/accounts/'.$account->getId().'/subscription"]')->count());
+
+            $crawler = $client->request('GET', '/accounts/'.$account->getId().'/subscription');
+            self::assertResponseIsSuccessful();
+
+            $field = $crawler->filter('form select[name$="[plan]"]');
+            $prefix = preg_replace('/\[plan\]$/', '', $field->attr('name'));
+            $client->submit($field->closest('form')->form(), [$prefix.'[plan]' => 'unlimited']);
+
+            $entityManager->clear();
+            $account = $entityManager->getRepository(User::class)->find($account->getId());
+            $running = static::getContainer()->get(SubscriptionService::class)->findRunning($account);
+            self::assertNotNull($running);
+            self::assertSame('unlimited', $running->getPlan());
+            self::assertEqualsWithDelta(time(), $running->getDateStart()->getTimestamp(), 60);
+        } finally {
+            $entityManager->getConnection()->rollBack();
+        }
+    }
+}

@@ -1,0 +1,344 @@
+en:
+  tab: 'Subscription'
+  field:
+    plan: 'Plan'
+    since: 'Since'
+    remaining: 'Remaining'
+  value:
+    unlimited: 'Unlimited'
+    running: 'Running'
+  none: 'No subscription running: the api refuses this account''s tokens.'
+  history:
+    title: 'Past plans'
+    start: 'From'
+    end: 'Until'
+
+fr:
+  tab: 'Abonnement'
+  field:
+    plan: 'Plan'
+    since: 'Depuis'
+    remaining: 'Restant'
+  value:
+    unlimited: 'Illimité'
+    running: 'En cours'
+  none: 'Aucun abonnement en cours : l''API refuse les tokens de ce compte.'
+  history:
+    title: 'Plans successifs'
+    start: 'Du'
+    end: 'Au'
+
+zh:
+  tab: '订阅'
+  field:
+    plan: '套餐'
+    since: '开始于'
+    remaining: '剩余'
+  value:
+    unlimited: '无限'
+    running: '进行中'
+  none: '没有进行中的订阅：API 会拒绝此账户的令牌。'
+  history:
+    title: '历史套餐'
+    start: '从'
+    end: '至'
+
+ar:
+  tab: 'الاشتراك'
+  field:
+    plan: 'الخطة'
+    since: 'منذ'
+    remaining: 'المتبقي'
+  value:
+    unlimited: 'غير محدود'
+    running: 'جارٍ'
+  none: 'لا يوجد اشتراك جارٍ: ترفض الواجهة رموز هذا الحساب.'
+  history:
+    title: 'الخطط السابقة'
+    start: 'من'
+    end: 'إلى'
+
+hi:
+  tab: 'सदस्यता'
+  field:
+    plan: 'योजना'
+    since: 'से'
+    remaining: 'शेष'
+  value:
+    unlimited: 'असीमित'
+    running: 'चालू'
+  none: 'कोई सदस्यता चालू नहीं: API इस खाते के टोकन अस्वीकार करता है।'
+  history:
+    title: 'पिछली योजनाएँ'
+    start: 'से'
+    end: 'तक'
+
+he:
+  tab: 'מנוי'
+  field:
+    plan: 'תוכנית'
+    since: 'מאז'
+    remaining: 'נותר'
+  value:
+    unlimited: 'ללא הגבלה'
+    running: 'פעיל'
+  none: 'אין מנוי פעיל: ה־API דוחה את האסימונים של חשבון זה.'
+  history:
+    title: 'תוכניות קודמות'
+    start: 'מ־'
+    end: 'עד'
+
+fa:
+  tab: 'اشتراک'
+  field:
+    plan: 'طرح'
+    since: 'از'
+    remaining: 'باقی‌مانده'
+  value:
+    unlimited: 'نامحدود'
+    running: 'در جریان'
+  none: 'اشتراک فعالی وجود ندارد: API توکن‌های این حساب را رد می‌کند.'
+  history:
+    title: 'طرح‌های پیشین'
+    start: 'از'
+    end: 'تا'
+
+ur:
+  tab: 'رکنیت'
+  field:
+    plan: 'پلان'
+    since: 'سے'
+    remaining: 'باقی'
+  value:
+    unlimited: 'لامحدود'
+    running: 'جاری'
+  none: 'کوئی رکنیت جاری نہیں: API اس اکاؤنٹ کے ٹوکن مسترد کرتا ہے۔'
+  history:
+    title: 'پچھلے پلان'
+    start: 'سے'
+    end: 'تک'
+
+ja:
+  tab: 'サブスクリプション'
+  field:
+    plan: 'プラン'
+    since: '開始'
+    remaining: '残り'
+  value:
+    unlimited: '無制限'
+    running: '継続中'
+  none: '有効なサブスクリプションがありません：APIはこのアカウントのトークンを拒否します。'
+  history:
+    title: '過去のプラン'
+    start: '開始'
+    end: '終了'
+
+ko:
+  tab: '구독'
+  field:
+    plan: '요금제'
+    since: '시작'
+    remaining: '남은 양'
+  value:
+    unlimited: '무제한'
+    running: '진행 중'
+  none: '진행 중인 구독이 없습니다: API가 이 계정의 토큰을 거부합니다.'
+  history:
+    title: '이전 요금제'
+    start: '시작'
+    end: '종료'
+
+bn:
+  tab: 'সাবস্ক্রিপশন'
+  field:
+    plan: 'প্ল্যান'
+    since: 'থেকে'
+    remaining: 'বাকি'
+  value:
+    unlimited: 'সীমাহীন'
+    running: 'চলমান'
+  none: 'কোনো চলমান সাবস্ক্রিপশন নেই: API এই অ্যাকাউন্টের টোকেন প্রত্যাখ্যান করে।'
+  history:
+    title: 'আগের প্ল্যান'
+    start: 'থেকে'
+    end: 'পর্যন্ত'
+
+th:
+  tab: 'การสมัครสมาชิก'
+  field:
+    plan: 'แผน'
+    since: 'ตั้งแต่'
+    remaining: 'คงเหลือ'
+  value:
+    unlimited: 'ไม่จำกัด'
+    running: 'กำลังใช้งาน'
+  none: 'ไม่มีการสมัครที่ใช้งานอยู่: API จะปฏิเสธโทเค็นของบัญชีนี้'
+  history:
+    title: 'แผนก่อนหน้า'
+    start: 'ตั้งแต่'
+    end: 'ถึง'
+
+de:
+  tab: 'Abonnement'
+  field:
+    plan: 'Plan'
+    since: 'Seit'
+    remaining: 'Verbleibend'
+  value:
+    unlimited: 'Unbegrenzt'
+    running: 'Laufend'
+  none: 'Kein laufendes Abonnement: Die API weist die Tokens dieses Kontos ab.'
+  history:
+    title: 'Bisherige Pläne'
+    start: 'Von'
+    end: 'Bis'
+
+fi:
+  tab: 'Tilaus'
+  field:
+    plan: 'Paketti'
+    since: 'Alkaen'
+    remaining: 'Jäljellä'
+  value:
+    unlimited: 'Rajoittamaton'
+    running: 'Voimassa'
+  none: 'Ei voimassa olevaa tilausta: API hylkää tämän tilin tunnisteet.'
+  history:
+    title: 'Aiemmat paketit'
+    start: 'Alkaen'
+    end: 'Asti'
+
+ru:
+  tab: 'Подписка'
+  field:
+    plan: 'Тариф'
+    since: 'С'
+    remaining: 'Осталось'
+  value:
+    unlimited: 'Без ограничений'
+    running: 'Действует'
+  none: 'Нет действующей подписки: API отклоняет токены этого аккаунта.'
+  history:
+    title: 'Прошлые тарифы'
+    start: 'С'
+    end: 'По'
+
+pl:
+  tab: 'Subskrypcja'
+  field:
+    plan: 'Plan'
+    since: 'Od'
+    remaining: 'Pozostało'
+  value:
+    unlimited: 'Bez limitu'
+    running: 'Trwa'
+  none: 'Brak aktywnej subskrypcji: API odrzuca tokeny tego konta.'
+  history:
+    title: 'Poprzednie plany'
+    start: 'Od'
+    end: 'Do'
+
+es:
+  tab: 'Suscripción'
+  field:
+    plan: 'Plan'
+    since: 'Desde'
+    remaining: 'Restante'
+  value:
+    unlimited: 'Ilimitado'
+    running: 'En curso'
+  none: 'Ninguna suscripción en curso: la API rechaza los tokens de esta cuenta.'
+  history:
+    title: 'Planes anteriores'
+    start: 'Desde'
+    end: 'Hasta'
+
+it:
+  tab: 'Abbonamento'
+  field:
+    plan: 'Piano'
+    since: 'Dal'
+    remaining: 'Rimanente'
+  value:
+    unlimited: 'Illimitato'
+    running: 'In corso'
+  none: 'Nessun abbonamento in corso: l''API rifiuta i token di questo account.'
+  history:
+    title: 'Piani precedenti'
+    start: 'Dal'
+    end: 'Al'
+
+pt_BR:
+  tab: 'Assinatura'
+  field:
+    plan: 'Plano'
+    since: 'Desde'
+    remaining: 'Restante'
+  value:
+    unlimited: 'Ilimitado'
+    running: 'Em andamento'
+  none: 'Nenhuma assinatura em andamento: a API recusa os tokens desta conta.'
+  history:
+    title: 'Planos anteriores'
+    start: 'De'
+    end: 'Até'
+
+tr:
+  tab: 'Abonelik'
+  field:
+    plan: 'Plan'
+    since: 'Başlangıç'
+    remaining: 'Kalan'
+  value:
+    unlimited: 'Sınırsız'
+    running: 'Devam ediyor'
+  none: 'Devam eden abonelik yok: API bu hesabın anahtarlarını reddeder.'
+  history:
+    title: 'Önceki planlar'
+    start: 'Başlangıç'
+    end: 'Bitiş'
+
+vi:
+  tab: 'Gói đăng ký'
+  field:
+    plan: 'Gói'
+    since: 'Từ'
+    remaining: 'Còn lại'
+  value:
+    unlimited: 'Không giới hạn'
+    running: 'Đang dùng'
+  none: 'Không có gói đăng ký nào: API từ chối token của tài khoản này.'
+  history:
+    title: 'Các gói trước'
+    start: 'Từ'
+    end: 'Đến'
+
+id:
+  tab: 'Langganan'
+  field:
+    plan: 'Paket'
+    since: 'Sejak'
+    remaining: 'Sisa'
+  value:
+    unlimited: 'Tanpa batas'
+    running: 'Berjalan'
+  none: 'Tidak ada langganan berjalan: API menolak token akun ini.'
+  history:
+    title: 'Paket sebelumnya'
+    start: 'Dari'
+    end: 'Sampai'
+
+nl:
+  tab: 'Abonnement'
+  field:
+    plan: 'Plan'
+    since: 'Sinds'
+    remaining: 'Resterend'
+  value:
+    unlimited: 'Onbeperkt'
+    running: 'Lopend'
+  none: 'Geen lopend abonnement: de API weigert de tokens van dit account.'
+  history:
+    title: 'Eerdere plannen'
+    start: 'Van'
+    end: 'Tot'

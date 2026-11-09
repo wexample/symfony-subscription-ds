@@ -1,0 +1,35 @@
+{#- An account's subscription, as SubscriptionScreenService::describe() gives
+    it: the plan running and what is left of it, then every plan it has been
+    on. -#}
+{%- set subscription_domain = 'WexampleSymfonySubscriptionDsBundle.common.subscription::' -%}
+<section class="block block--padded">
+    {%- if subscription.running -%}
+        {{ properties([
+            { key: (subscription_domain ~ 'field.plan') | trans, value: marker('info', subscription.running.plan | capitalize, { compact: true }), html: true },
+            { key: (subscription_domain ~ 'field.since') | trans, value: date_display(subscription.running.since, 'date_time_short'), html: true },
+            { key: (subscription_domain ~ 'field.remaining') | trans, value: subscription.running.remaining is null ? (subscription_domain ~ 'value.unlimited') | trans : subscription.running.remaining },
+        ]) }}
+    {%- else -%}
+        <p class="text-secondary">{{ (subscription_domain ~ 'none') | trans }}</p>
+    {%- endif -%}
+</section>
+
+{#- A table stands on the page, never in a block. -#}
+{%- if subscription.history -%}
+<section class="stack--vertical">
+    <h2>{{ (subscription_domain ~ 'history.title') | trans }}</h2>
+    {%- set history_rows = [] -%}
+    {%- for entry in subscription.history -%}
+        {%- set history_rows = history_rows | merge([{
+            plan: entry.plan | capitalize,
+            start: date_display(entry.start, 'date_time_short'),
+            end: entry.end ? date_display(entry.end, 'date_time_short') : marker('success', (subscription_domain ~ 'value.running') | trans, { compact: true }),
+        }]) -%}
+    {%- endfor -%}
+    {{ data_table([
+        { key: 'plan', label: (subscription_domain ~ 'field.plan') | trans },
+        { key: 'start', label: (subscription_domain ~ 'history.start') | trans, cell: 'html' },
+        { key: 'end', label: (subscription_domain ~ 'history.end') | trans, cell: 'html' },
+    ], history_rows) }}
+</section>
+{%- endif -%}

@@ -1,0 +1,91 @@
+en:
+  page_title: 'Subscription'
+  page_icon: ph:bold/credit-card
+
+fr:
+  page_title: 'Abonnement'
+  page_icon: ph:bold/credit-card
+
+zh:
+  page_title: '订阅'
+  page_icon: ph:bold/credit-card
+
+ar:
+  page_title: 'الاشتراك'
+  page_icon: ph:bold/credit-card
+
+hi:
+  page_title: 'सदस्यता'
+  page_icon: ph:bold/credit-card
+
+he:
+  page_title: 'מנוי'
+  page_icon: ph:bold/credit-card
+
+fa:
+  page_title: 'اشتراک'
+  page_icon: ph:bold/credit-card
+
+ur:
+  page_title: 'رکنیت'
+  page_icon: ph:bold/credit-card
+
+ja:
+  page_title: 'サブスクリプション'
+  page_icon: ph:bold/credit-card
+
+ko:
+  page_title: '구독'
+  page_icon: ph:bold/credit-card
+
+bn:
+  page_title: 'সাবস্ক্রিপশন'
+  page_icon: ph:bold/credit-card
+
+th:
+  page_title: 'การสมัครสมาชิก'
+  page_icon: ph:bold/credit-card
+
+de:
+  page_title: 'Abonnement'
+  page_icon: ph:bold/credit-card
+
+fi:
+  page_title: 'Tilaus'
+  page_icon: ph:bold/credit-card
+
+ru:
+  page_title: 'Подписка'
+  page_icon: ph:bold/credit-card
+
+pl:
+  page_title: 'Subskrypcja'
+  page_icon: ph:bold/credit-card
+
+es:
+  page_title: 'Suscripción'
+  page_icon: ph:bold/credit-card
+
+it:
+  page_title: 'Abbonamento'
+  page_icon: ph:bold/credit-card
+
+pt_BR:
+  page_title: 'Assinatura'
+  page_icon: ph:bold/credit-card
+
+tr:
+  page_title: 'Abonelik'
+  page_icon: ph:bold/credit-card
+
+vi:
+  page_title: 'Gói đăng ký'
+  page_icon: ph:bold/credit-card
+
+id:
+  page_title: 'Langganan'
+  page_icon: ph:bold/credit-card
+
+nl:
+  page_title: 'Abonnement'
+  page_icon: ph:bold/credit-card

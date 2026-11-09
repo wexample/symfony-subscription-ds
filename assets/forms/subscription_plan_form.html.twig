@@ -1,0 +1,7 @@
+{%- extends '@WexampleSymfonyLoaderBundle/bases/form.html.twig' -%}
+
+{#- The plan the account is put on from now. -#}
+{% block form_body %}
+    {{ form_row(form.plan) }}
+    {{ form_actions(form) }}
+{% endblock %}

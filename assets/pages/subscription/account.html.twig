@@ -1,0 +1,18 @@
+{%- extends '@WexampleSymfonyUserDsBundle/pages/accounts/layout/account.html.twig' -%}
+
+{#- One account's subscription, for an administrator: read, then the account
+    put on another plan from now. -#}
+{%- block page_body -%}
+    {%- include '@WexampleSymfonySubscriptionDsBundle/partials/subscription.html.twig' -%}
+
+    <section class="block block--card">
+        <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/arrows-left-right') }}</span>
+            <span class="block--title-label">{{ '@page::change.title' | trans }}</span>
+        </div>
+        <div class="block--body stack--vertical">
+            <p class="text-secondary">{{ '@page::change.intro' | trans }}</p>
+            {{ form_load(render_pass, subscription_plan_form, '@WexampleSymfonySubscriptionDsBundle/forms/subscription_plan_form.html.twig') }}
+        </div>
+    </section>
+{%- endblock -%}

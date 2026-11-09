@@ -1,0 +1,160 @@
+en:
+  page_title: 'Subscription'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'Change the plan'
+    intro: 'The account is put on it from now; the running plan ends.'
+
+fr:
+  page_title: 'Abonnement'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'Changer de plan'
+    intro: 'Le compte y passe dès maintenant ; le plan en cours se termine.'
+
+zh:
+  page_title: '订阅'
+  page_icon: ph:bold/credit-card
+  change:
+    title: '更改套餐'
+    intro: '账户从现在起使用该套餐；当前套餐结束。'
+
+ar:
+  page_title: 'الاشتراك'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'تغيير الخطة'
+    intro: 'ينتقل الحساب إليها من الآن؛ وتنتهي الخطة الجارية.'
+
+hi:
+  page_title: 'सदस्यता'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'योजना बदलें'
+    intro: 'खाता अभी से इस पर होगा; चालू योजना समाप्त होगी।'
+
+he:
+  page_title: 'מנוי'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'החלפת תוכנית'
+    intro: 'החשבון עובר אליה מעכשיו; התוכנית הנוכחית מסתיימת.'
+
+fa:
+  page_title: 'اشتراک'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'تغییر طرح'
+    intro: 'حساب از همین حالا روی آن قرار می‌گیرد؛ طرح جاری پایان می‌یابد.'
+
+ur:
+  page_title: 'رکنیت'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'پلان تبدیل کریں'
+    intro: 'اکاؤنٹ ابھی سے اس پر ہوگا؛ جاری پلان ختم ہو جائے گا۔'
+
+ja:
+  page_title: 'サブスクリプション'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'プランを変更'
+    intro: 'アカウントは今からこのプランになり、現在のプランは終了します。'
+
+ko:
+  page_title: '구독'
+  page_icon: ph:bold/credit-card
+  change:
+    title: '요금제 변경'
+    intro: '계정이 지금부터 이 요금제를 사용하며, 현재 요금제는 종료됩니다.'
+
+bn:
+  page_title: 'সাবস্ক্রিপশন'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'প্ল্যান বদলান'
+    intro: 'অ্যাকাউন্টটি এখন থেকে এতে থাকবে; চলমান প্ল্যান শেষ হবে।'
+
+th:
+  page_title: 'การสมัครสมาชิก'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'เปลี่ยนแผน'
+    intro: 'บัญชีจะใช้แผนนี้ตั้งแต่ตอนนี้ แผนปัจจุบันจะสิ้นสุด'
+
+de:
+  page_title: 'Abonnement'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'Plan ändern'
+    intro: 'Das Konto wechselt ab sofort darauf; der laufende Plan endet.'
+
+fi:
+  page_title: 'Tilaus'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'Vaihda paketti'
+    intro: 'Tili siirtyy siihen nyt; voimassa oleva paketti päättyy.'
+
+ru:
+  page_title: 'Подписка'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'Сменить тариф'
+    intro: 'Аккаунт переходит на него сейчас; текущий тариф завершается.'
+
+pl:
+  page_title: 'Subskrypcja'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'Zmień plan'
+    intro: 'Konto przechodzi na niego od teraz; bieżący plan się kończy.'
+
+es:
+  page_title: 'Suscripción'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'Cambiar de plan'
+    intro: 'La cuenta pasa a él desde ahora; el plan en curso termina.'
+
+it:
+  page_title: 'Abbonamento'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'Cambia piano'
+    intro: 'L''account passa a questo piano da ora; il piano in corso termina.'
+
+pt_BR:
+  page_title: 'Assinatura'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'Mudar de plano'
+    intro: 'A conta passa para ele a partir de agora; o plano em andamento termina.'
+
+tr:
+  page_title: 'Abonelik'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'Planı değiştir'
+    intro: 'Hesap şu andan itibaren bu plana geçer; mevcut plan sona erer.'
+
+vi:
+  page_title: 'Gói đăng ký'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'Đổi gói'
+    intro: 'Tài khoản chuyển sang gói này từ bây giờ; gói hiện tại kết thúc.'
+
+id:
+  page_title: 'Langganan'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'Ganti paket'
+    intro: 'Akun beralih ke paket ini mulai sekarang; paket berjalan berakhir.'
+
+nl:
+  page_title: 'Abonnement'
+  page_icon: ph:bold/credit-card
+  change:
+    title: 'Plan wijzigen'
+    intro: 'Het account gaat er vanaf nu op; het lopende plan eindigt.'

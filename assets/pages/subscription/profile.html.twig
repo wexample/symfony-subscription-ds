@@ -1,0 +1,7 @@
+{%- extends '@WexampleSymfonyUserDsBundle/pages/profile/layout/profile.html.twig' -%}
+
+{#- The signed-in account's subscription, to read: a plan is given by an
+    administrator, from the account's page. -#}
+{%- block page_body -%}
+    {%- include '@WexampleSymfonySubscriptionDsBundle/partials/subscription.html.twig' -%}
+{%- endblock -%}
