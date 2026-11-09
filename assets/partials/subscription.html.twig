@@ -2,17 +2,18 @@
     it: the plan running and what is left of it, then every plan it has been
     on. -#}
 {%- set subscription_domain = 'WexampleSymfonySubscriptionDsBundle.common.subscription::' -%}
+{%- if subscription.running -%}
 <section class="block block--padded">
-    {%- if subscription.running -%}
-        {{ properties([
-            { key: (subscription_domain ~ 'field.plan') | trans, value: marker('info', subscription.running.plan | capitalize, { compact: true }), html: true },
-            { key: (subscription_domain ~ 'field.since') | trans, value: date_display(subscription.running.since, 'date_time_short'), html: true },
-            { key: (subscription_domain ~ 'field.remaining') | trans, value: subscription.running.remaining is null ? (subscription_domain ~ 'value.unlimited') | trans : subscription.running.remaining },
-        ]) }}
-    {%- else -%}
-        <p class="text-secondary">{{ (subscription_domain ~ 'none') | trans }}</p>
-    {%- endif -%}
+    {{ properties([
+        { key: (subscription_domain ~ 'field.plan') | trans, value: marker('info', subscription.running.plan | capitalize, { compact: true }), html: true },
+        { key: (subscription_domain ~ 'field.since') | trans, value: date_display(subscription.running.since, 'date_time_short'), html: true },
+        { key: (subscription_domain ~ 'field.remaining') | trans, value: subscription.running.remaining is null ? (subscription_domain ~ 'value.unlimited') | trans : subscription.running.remaining },
+    ]) }}
 </section>
+{%- else -%}
+{#- No plan: the account is refused, said as a warning rather than in grey. -#}
+{{ message_warning((subscription_domain ~ 'none') | trans, null, { compact: true }) }}
+{%- endif -%}
 
 {#- A table stands on the page, never in a block. -#}
 {%- if subscription.history -%}
