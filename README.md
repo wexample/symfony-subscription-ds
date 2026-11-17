@@ -1,6 +1,6 @@
 # symfony-subscription-ds
 
-Version: 2.0.7
+Version: 2.0.8
 
 Design-system screens for symfony-subscription: an account's plan and what is left of it, on its profile; another plan given from its page in the administration
 
