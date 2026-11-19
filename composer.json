@@ -1,7 +1,7 @@
 {
   "name": "wexample/symfony-subscription-ds",
   "description": "Design-system screens for symfony-subscription: an account's plan and what is left of it, on its profile; another plan given from its page in the administration",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -16,7 +16,7 @@
     "wexample/symfony-design-system": ">=49.0.0",
     "wexample/symfony-helpers": ">=19.3.0",
     "wexample/symfony-loader": ">=28.0.0",
-    "wexample/symfony-forms": ">=18.0.0"
+    "wexample/symfony-forms": ">=19.0.0"
   },
   "repositories": [
     {
